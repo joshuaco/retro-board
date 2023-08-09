@@ -1,0 +1,42 @@
+.retro-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+textarea {
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  padding: 10px 15px;
+}
+
+.item-votes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item-controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.green {
+  background-color: #166534;
+}
+
+.rose {
+  background-color: #be123c;
+}
+
+.orange {
+  background-color: #c2410c;
+}
+
+.red {
+  background-color: #b91c1c;
+}

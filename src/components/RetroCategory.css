@@ -1,0 +1,11 @@
+.retro-category {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+  gap: 5px;
+}
+
+.category-title {
+  border-radius: 8px;
+}
